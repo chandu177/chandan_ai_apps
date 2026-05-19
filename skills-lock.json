@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "databricks-lakebase": {
+      "source": "databricks/databricks-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/databricks-lakebase/SKILL.md",
+      "computedHash": "ce347178a509ac902c14b18a64bb1d7ad1df9608fdcef2b40c78a5b7c0862b54"
+    }
+  }
+}
