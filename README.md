@@ -1,6 +1,8 @@
-# Databricks Apps
+# chandan_ai_apps
 
 Workspace for Databricks AppKit applications, agent skills, and Cursor config.
+
+**Repository:** https://github.com/chandu177/chandan_ai_apps
 
 ```
 databricks_apps/

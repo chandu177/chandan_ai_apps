@@ -2,7 +2,7 @@
 # Publish databricks_apps to GitHub and open a PR (run from repo root after: gh auth login)
 set -euo pipefail
 
-REPO="${GITHUB_REPO:-chandu177/databricks_apps}"
+REPO="${GITHUB_REPO:-chandu177/chandan_ai_apps}"
 BRANCH="${1:-feature/delivery-map-timeline}"
 
 cd "$(git rev-parse --show-toplevel)"
