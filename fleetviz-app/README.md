@@ -40,6 +40,8 @@ PGSSLMODE=require
 
 Copy from `.env.example` and fill in `PGHOST` from the primary endpoint. Bundle deploy uses the same fleetviz resources defined in `databricks.yml`.
 
+For feature work, follow the repo [AGENTS.md](../AGENTS.md) workflow: create a git feature branch, create a matching Lakebase branch from `production`, and point `.env` at that branch’s `primary` endpoint (see `databricks postgres list-endpoints projects/fleetviz/branches/<branch-id>`).
+
 #### Lakebase permissions (local dev)
 
 Your Databricks user needs `databricks_superuser` on the fleetviz branch (Lakebase UI → Branch Overview → Add role). See the [Lakebase plugin documentation](https://databricks.github.io/appkit/docs/plugins/lakebase#local-development).
